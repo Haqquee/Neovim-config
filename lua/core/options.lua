@@ -10,8 +10,8 @@ local options = {
 	incsearch = true,
 	hlsearch = false,
 	ignorecase = true,
-	smartcase = true
-
+	smartcase = true,
+  guicursor = ""
 }
 
 for option, value in pairs(options) do
