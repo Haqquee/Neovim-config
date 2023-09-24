@@ -24,9 +24,23 @@ return require('packer').startup(function(use)
   use("saadparwaiz1/cmp_luasnip")
 	-- Language server
   use("neovim/nvim-lspconfig")
+	use("williamboman/mason.nvim")
   use("williamboman/nvim-lsp-installer")
+	use {
+  'VonHeikemen/lsp-zero.nvim',
+  branch = 'v3.x',
+  requires = {
+    -- LSP Support
+    {'neovim/nvim-lspconfig'},
+    -- Autocompletion
+    {'hrsh7th/nvim-cmp'},
+    {'hrsh7th/cmp-nvim-lsp'},
+    {'L3MON4D3/LuaSnip'},
+  }
+}
 	-- Syntax parser
   use("nvim-treesitter/nvim-treesitter")
+	use('nvim-treesitter/playground')
 	-- Utilities
   use("windwp/nvim-autopairs")
   use("norcalli/nvim-colorizer.lua")
@@ -41,6 +55,8 @@ return require('packer').startup(function(use)
   use("akinsho/bufferline.nvim")
   use("nvim-tree/nvim-tree.lua")
   use("nvim-lualine/lualine.nvim")
+  -- Themes and Stuff
+  use("xiyaowong/transparent.nvim")
 
   -- My plugins here
   -- use 'foo1/bar1.nvim'
