@@ -11,7 +11,8 @@ local options = {
 	hlsearch = false,
 	ignorecase = true,
 	smartcase = true,
-  guicursor = ""
+  guicursor = "",
+
 }
 
 for option, value in pairs(options) do

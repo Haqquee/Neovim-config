@@ -4,3 +4,4 @@ require("core.plugins")
 require("core.plugin_config")
 
 vim.cmd [[colorscheme elflord]]
+vim.api.nvim_set_option('clipboard', 'unnamedplus')

@@ -22,9 +22,11 @@ return require('packer').startup(function(use)
 	-- Snippets
 	use("L3MON4D3/LuaSnip")
   use("saadparwaiz1/cmp_luasnip")
+  use("rafamadriz/friendly-snippets")
 	-- Language server
   use("neovim/nvim-lspconfig")
 	use("williamboman/mason.nvim")
+  use("williamboman/mason-lspconfig.nvim")
   use("williamboman/nvim-lsp-installer")
 	use {
   'VonHeikemen/lsp-zero.nvim',
