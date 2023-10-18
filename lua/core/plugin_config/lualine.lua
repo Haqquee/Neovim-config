@@ -38,3 +38,7 @@ require('lualine').setup {
   inactive_winbar = {},
   extensions = {}
 }
+
+require("bufferline").setup{}
+
+

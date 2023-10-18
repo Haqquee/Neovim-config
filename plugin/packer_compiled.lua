@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/haqquee/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  aurora = {
+    loaded = true,
+    path = "/home/haqquee/.local/share/nvim/site/pack/packer/start/aurora",
+    url = "https://github.com/ray-x/aurora"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/haqquee/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
@@ -184,6 +189,11 @@ _G.packer_plugins = {
     path = "/home/haqquee/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
+  ["oxocarbon.nvim"] = {
+    loaded = true,
+    path = "/home/haqquee/.local/share/nvim/site/pack/packer/start/oxocarbon.nvim",
+    url = "https://github.com/nyoom-engineering/oxocarbon.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/haqquee/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -208,6 +218,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/haqquee/.local/share/nvim/site/pack/packer/start/transparent.nvim",
     url = "https://github.com/xiyaowong/transparent.nvim"
+  },
+  ["vim-nightfly-colors"] = {
+    loaded = true,
+    path = "/home/haqquee/.local/share/nvim/site/pack/packer/start/vim-nightfly-colors",
+    url = "https://github.com/bluz71/vim-nightfly-colors"
   }
 }
 

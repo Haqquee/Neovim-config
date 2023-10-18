@@ -59,11 +59,9 @@ return require('packer').startup(function(use)
   use("nvim-lualine/lualine.nvim")
   -- Themes and Stuff
   use("xiyaowong/transparent.nvim")
-
-  -- My plugins here
-  -- use 'foo1/bar1.nvim'
-  -- use 'foo2/bar2.nvim'
-
+  use("nyoom-engineering/oxocarbon.nvim")
+  use("bluz71/vim-nightfly-colors")
+  use("ray-x/aurora")
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then

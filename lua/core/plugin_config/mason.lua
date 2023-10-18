@@ -11,7 +11,12 @@ require("mason").setup({
 require("mason-lspconfig").setup({
     ensure_installed = { 
       "lua_ls", 
-      "rust_analyzer"
+      "rust_analyzer",
+      "cssls",
+      "clangd",
+      "tsserver",
+      "tailwindcss",
+      "pyright"
     },
     automatic_installation = true,
 })
